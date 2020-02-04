@@ -1,0 +1,18 @@
+
+<div class="leftside">
+<img src="C:\Users\user\Desktop\web development\image_2020-01-28_23-33-53.png" alt="image" style="width: 30%; float: left;">
+</div>
+
+.leftside img{
+    margin-top: 20px;
+    margin-left: 250px;
+}
+
+.wrapper .header{
+    float: right;
+    max-width: 350px;
+    width: 100%;
+    height: auto;
+    margin: 50px auto;
+    margin-right: 200px;
+}
