@@ -1,0 +1,11 @@
+.news-wrapper {
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.news-item {
+  flex: 1 1 100%;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}

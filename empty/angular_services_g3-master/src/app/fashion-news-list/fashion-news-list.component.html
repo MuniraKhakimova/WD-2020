@@ -1,0 +1,9 @@
+<div class="news-wrapper" *ngFor="let paper of componentNews">
+  <a class="news-item" [routerLink]="'/news/' + paper.id">
+    <p class="news-title"> {{ paper.title }}</p>
+  </a>
+</div>
+
+<button (click)="fashionService.addNews()">
+  Add news
+</button>
